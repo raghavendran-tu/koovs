@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.koovs.testcase.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyHomePageLogin"/>
+          <include name="verifyHomePageTitleTest1"/>
+          <include name="verifyLoginPageTitleTest"/>
+          <include name="verifyLoginTitlelogo"/>
+          <include name="tools"/>
+          <include name="verifyCorrectLoginLabel1"/>
+          <include name="verifyloginTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.qa.koovs.testcase.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
